@@ -4,6 +4,8 @@ Invipy is written in Python3 and uses PyQt5 and VTK.
 
 ## Windows
 
+We use a 64 bit Windows8.
+
 ### PyQt5
 Open a command prompt (eventually as admin) and type in:
 
@@ -11,15 +13,18 @@ Open a command prompt (eventually as admin) and type in:
 
 ### VTK
 
-We build VTK from source using cmake and a Windows compiler. Here, we employ Visual Studio Express 2013 for desktop (it is free).
+We build VTK from source using CMake and a Windows compiler (here, we employ the freely available Visual Studio Express 2013 for desktop).
 
-* Install cmake and VS Express 2013 for desktop.
+* Install CMake and VS Express 2013 for desktop.
 * Download the latest stable VTK source code from http://www.vtk.org/download/
 * Unzip the file, enter the main directory and create a new one (usually called **build**).
-* Open cmake and fill the first two lines as shown in the screenshot:
+* Open CMake and fill the first two lines as shown in the screenshot (here, the VTK main directory is **C:/Users/papazov/Software/VTK-7.0.0/VTK-7.0.0**):
 
 ![Cmake Windows screenshot 1](doc/cmake_win_screenshot_1.PNG "")
 
+* Hit **Configure**, choose **Visual Studio 12 2013 Win64** and hit **Finish**, as shown here:
+
+![Cmake Windows screenshot 1](doc/cmake_win_screenshot_2.PNG "")
 
 *** Linux ***
 
