@@ -4,7 +4,7 @@ We build VTK from source using CMake and a Windows compiler (here, we employ the
 
 * Install CMake and VS Express 2013 for desktop (this is trivial).
 * Download the latest stable VTK source code (in this manual it is 7.0.0) from http://www.vtk.org/download/
-* Unzip the file, enter the main directory and create a new one (usually called **build**).
+* Unzip the file, enter the main directory and create a new folder (usually) called **build**.
 * Open CMake and fill in the first two lines as shown in the screenshot (you should change **C:\Users\papazov\Software** to the folder where you downloaded VTK):
 
 ![Cmake Windows screenshot 1](cmake_win_screenshot_1.PNG "")
