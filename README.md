@@ -11,9 +11,14 @@ Open a command prompt (eventually as admin) and type in:
 
 ### VTK
 
+We build VTK from source using cmake and a Windows compiler. Here, we employ Visual Studio Express 2013 for desktop (it is free).
 
-* Install Python3 and PyQt5
-* Build VTK with Python3 support (no Qt support needed)
+* Install cmake and VS Express 2013 for desktop.
+* Download the latest stable VTK source code from http://www.vtk.org/download/
+* Unzip the file, enter the main directory and create a new one (usually called **build**).
+* Open cmake and fill the first two lines as shown in the screenshot:
+
+![alt text](https://github.com/papazov3d/invipy/doc/cmake_win_screenshot_1.PNG "")
 
 
 *** Linux ***
