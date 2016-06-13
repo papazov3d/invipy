@@ -23,7 +23,7 @@ We use 64bit Windows 8.
 
 We use 64bit Ubuntu 14.
 
-* **Install PyQt5.** Open a command prompt and run `sudo pip install PyQt5` (no `sudo` if you are using **virtualenv**).
+* **Install PyQt5.** Open a console and run `sudo pip install PyQt5` (no `sudo` if you are using **virtualenv**).
 
 * **Install VTK.** Follow [these](doc/install_vtk_linux.md) instructions.
 
