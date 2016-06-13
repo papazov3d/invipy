@@ -4,7 +4,7 @@ Invipy is written in Python3 and uses PyQt5 and VTK.
 
 ## Windows
 
-We use a 64 bit Windows8.
+We use Windows 8, 64 bit.
 
 ### PyQt5
 Open a command prompt (eventually as admin) and type in:
