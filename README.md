@@ -1,4 +1,4 @@
-Invipy is written in Python3 and uses PyQt5 and VTK.
+Invipy is written in **Python3** and uses **PyQt5** and **VTK**.
 
 # Install and Run
 
