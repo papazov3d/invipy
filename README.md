@@ -1,3 +1,16 @@
+# Installation
+
+Invipy is written in Python3 and uses PyQt5 and VTK.
+
+## Windows
+
+### PyQt5
+Open a command prompt (eventually as admin) and type in: 
+    pip install PyQt5
+
+### VTK
+
+
 * Install Python3 and PyQt5
 * Build VTK with Python3 support (no Qt support needed)
 
