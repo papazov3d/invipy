@@ -1,19 +1,25 @@
-# Installation
-
 Invipy is written in Python3 and uses PyQt5 and VTK.
+
+# Install and Run
+
+In the following, we describe how to install and run invipy on Windows and Linux.
 
 ## Windows
 
 We use Windows 8, 64 bit.
 
-### PyQt5
+#### PyQt5
 Open a command prompt (eventually as admin) and type in:
 
     pip install PyQt5
 
-### VTK
+#### VTK
 
 Install VTK as described [here](doc/install_vtk_win.md)
+
+#### Set up Environment variables
+
+
 
 *** Linux ***
 
