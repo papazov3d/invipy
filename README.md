@@ -26,11 +26,17 @@ We build VTK from source using CMake and a Windows compiler (here, we employ the
 
 ![Cmake Windows screenshot 1](doc/cmake_win_screenshot_2.PNG "")
 
-* Hit **Finish**. CMake starts the configuration process. Once it is done, change some of the entries as shown here (the blue ones):
+* Hit **Finish**. CMake starts the configuration process. Once it is done, change the blue marked entries as shown here:
 
-![Cmake Windows screenshot 1](doc/cmake_win_screenshot_3.PNG "")
+![Cmake Windows screenshot 3](doc/cmake_win_screenshot_3.PNG "")
 
-* Hit **Configure** again and when it's done **Generate**.
+* Hit **Configure** again and when it's done hit **Generate**. Close CMake when the generating is done.
+* Go to the **build** directory and open the **VTK.sln** file with VS Express 2013 (eventually as admin).
+* Right-click on **INSTALL** and select **Build**:
+
+![VS Express Windows screenshot 1](doc/vs_express_win_screenshot_1.PNG "")
+
+* It takes a while to build VTK. At the end, it should be in **C:\Program Files\VTK\7.0.0**.
 
 *** Linux ***
 
