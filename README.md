@@ -18,7 +18,7 @@ We build VTK from source using cmake and a Windows compiler. Here, we employ Vis
 * Unzip the file, enter the main directory and create a new one (usually called **build**).
 * Open cmake and fill the first two lines as shown in the screenshot:
 
-![alt text](https://github.com/papazov3d/invipy/doc/cmake_win_screenshot_1.PNG "")
+![Cmake Windows screenshot 1](doc/cmake_win_screenshot_1.PNG "")
 
 
 *** Linux ***
