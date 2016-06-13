@@ -8,16 +8,14 @@ In the following, we describe how to install and run invipy on Windows and Linux
 
 We use Windows 8, 64 bit.
 
-#### PyQt5
-Open a command prompt (eventually as admin) and type in:
+* PyQt5. Open a command prompt (eventually as admin) and type in:
 
     pip install PyQt5
 
-#### VTK
+* VTK. Follow [these](doc/install_vtk_win.md) instructions.
 
-Install VTK as described [here](doc/install_vtk_win.md)
-
-#### Set up Environment variables
+* Environment variables.
+  * Yo
 
 
 
