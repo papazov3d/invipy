@@ -17,7 +17,7 @@ We use 64bit Windows 8.
   * Add **C:\Program Files\VTK\7.0.0\lib\python3.5\site-packages\vtk;C:\Program Files\VTK\7.0.0\lib\python3.5\site-packages** to the **PYTHONPATH** environment variable (create one if it does not exist).
 
 * **Run invipy.**
-  * Check out this repository or download the code. Open a command prompt and go to the directory containing **invipy.py**. Run `python invipy.py`.
+  * Check out this repository or download the code. Open a command prompt and go to the directory containing **invipy.py**. Run `python invipy.py`
   * Alternatively, read [here](doc/single_executable_file.md) how to create a single executable file.
 
 
@@ -34,5 +34,5 @@ We use 64bit Ubuntu 14.
   * Add **/local/usr/vtk7/lib/python3.5/site-packages:/local/usr/vtk7/lib/python3.5/site-packages/vtk** to the **PYTHONPATH** environment variable.
 
 * **Run invipy.**
-  * Check out this repository or download the code. Open a command prompt and go to the directory containing **invipy.py**. Run `python invipy.py`.
+  * Check out this repository or download the code. Open a command prompt and go to the directory containing **invipy.py**. Run `python invipy.py`
   * Alternatively, read [here](doc/single_executable_file.md) how to create a single executable file.
