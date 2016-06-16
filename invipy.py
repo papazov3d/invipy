@@ -144,9 +144,9 @@ class MainWindow(QtWidgets.QMainWindow):
     load_folder_action.setShortcut('Ctrl+I')
     load_folder_action.triggered.connect(self.__on_load_folder)
     # Open test file
-    open_test_file_action = QtWidgets.QAction('Open test file', self)
-    open_test_file_action.setShortcut('Ctrl+O')
-    open_test_file_action.triggered.connect(self.__on_open_test_file)
+    #open_test_file_action = QtWidgets.QAction('Open test file', self)
+    #open_test_file_action.setShortcut('Ctrl+O')
+    #open_test_file_action.triggered.connect(self.__on_open_test_file)
     # Quit
     quit_action = QtWidgets.QAction('Quit', self)
     quit_action.setShortcut('Ctrl+Q')
@@ -155,7 +155,7 @@ class MainWindow(QtWidgets.QMainWindow):
     file_menu = self.menuBar().addMenu(r"&FILE")
     file_menu.addAction(load_files_action)
     file_menu.addAction(load_folder_action)
-    file_menu.addAction(open_test_file_action)
+    #file_menu.addAction(open_test_file_action)
     file_menu.addSeparator()
     file_menu.addAction(quit_action)
 
@@ -188,7 +188,7 @@ class MainWindow(QtWidgets.QMainWindow):
   def __on_load_files(self):
     default_folder = r"C:\Users\papazov\Google Drive\research\data\models" # Windows
     #default_folder = r"/local/data/zbrain/masks/remeshed/15_Percent_Size"
-    
+
     # Let the user select the files (file_names[0] will be the list with the file names)
     file_names = QtWidgets.QFileDialog.getOpenFileNames(self, "Load file(s)", default_folder, r"All Files (*.*)")
 
@@ -209,7 +209,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     # Get the *full* file names
     for file_name in os.listdir(folder_name):
-      full_file_names.append(os.path.join(folder_name, file_name))
+      full_file_names.append(folder_name + "/" + file_name) # works on Windows too
 
     # Let the data_container load the files. The data_container will notify its observers that new data was loaded.
     self.__data_container.load_files(full_file_names, self.__file_load_progress_bar)

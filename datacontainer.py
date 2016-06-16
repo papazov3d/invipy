@@ -42,6 +42,7 @@ class DataContainer(modelview.Observable):
     # First, make sure we do not load the same data twice
     unique_file_names = list()
     for file_name in file_names:
+      print(file_name)
       if not self.has_data(file_name):
         unique_file_names.append(file_name)
 
@@ -117,7 +118,7 @@ class DataContainer(modelview.Observable):
     
     if used_n_times: # We will use 'name' once more => increment the counter
       self.__name_histogram[name] = used_n_times + 1
-      return name + "(" + str(used_n_times) + ")"
+      return name + " (" + str(used_n_times) + ")"
     else: # 'name' has never been used before
       self.__name_histogram[name] = 1
       return name

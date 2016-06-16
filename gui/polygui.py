@@ -37,8 +37,8 @@ class VtkPolyModelGUI(modelview.Observer):
     layout = QtWidgets.QGridLayout()
     layout.addWidget(QtWidgets.QLabel("color"), 0, 0)
     layout.addWidget(self.__select_color_btn, 1, 0)
-    layout.addWidget(QtWidgets.QLabel("transparency"), 0, 1)
-    layout.addWidget(self.__transparency_slider, 1, 1)
+    #layout.addWidget(QtWidgets.QLabel("transparency"), 0, 1)
+    #layout.addWidget(self.__transparency_slider, 1, 1)
     layout.setHorizontalSpacing(10)
     # Group the GUI elements together
     self.gui_widget = QtWidgets.QGroupBox("properties")
