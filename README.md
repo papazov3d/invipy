@@ -29,9 +29,9 @@ We use 64bit Ubuntu 14.
 
 * **Install VTK.** Follow [these](doc/install_vtk_linux.md) instructions.
 
-* **Set up environment variables.** We assume that VTK is installed in **/local/usr/vtk7**.
-  * Add **/local/usr/vtk7/lib** to the **LD_LIBRARY_PATH** environment variable.
-  * Add **/local/usr/vtk7/lib/python3.5/site-packages:/local/usr/vtk7/lib/python3.5/site-packages/vtk** to the **PYTHONPATH** environment variable.
+* **Set up environment variables.** We assume that VTK is installed in **/local/usr/vtk-7.0.0**.
+  * Add **/local/usr/vtk-7.0.0/lib** to the **LD_LIBRARY_PATH** environment variable.
+  * Add **/local/usr/vtk-7.0.0/lib/python3.5/site-packages:/local/usr/vtk-7.0.0/lib/python3.5/site-packages/vtk** to the **PYTHONPATH** environment variable.
 
 * **Run invipy.**
   * Check out this repository or download the code. Open a command prompt and go to the directory containing **invipy.py**. Run `python invipy.py`
